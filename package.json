@@ -1,0 +1,33 @@
+{
+  "name": "gulp-sass-pug-multipage-seed",
+  "version": "1.0.0",
+  "description": "basic template and tasks for a multipage website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "prod build": "gulp build-prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "beeper": "^1.1.1",
+    "browser-sync": "^2.9.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-data": "^1.2.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.0.3",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-watch": "^4.3.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parth181195/gulp-sass-pug-multipage-seed.git"
+  },
+  "author": "parth Jansari",
+  "license": "MIT"
+}
